@@ -12,7 +12,8 @@ queue new_queue() {
 	queue tmp;
 	Q.testa=0;
 	Q.num_el=0;
-}return(tmp)
+	return(tmp);
+}
 
 bool isempty (queue Q) {
 	if(Q.num_el=0) return(true);
@@ -35,6 +36,7 @@ queue dequeue (queue Q) {
 queue print_queue(queue Q) {
 	for(int i=Q.num_el; i<Q.num_el; i++) {
 		cout << Q.data[Q.num_el];
+	}
 }
 
 
@@ -50,11 +52,12 @@ int e;
 	Q = enqueue(Q, 9);
 	Q = enqueue(Q, 10);
 	Q = enqueue(Q, 11);
+	dequeue(Q);
+	print_queue(Q);
 	Q = enqueue(Q, 12);
 	Q = enqueue(Q, 13);
-}
-
-
+	dequeue(Q);
+	print_queue(Q);
 }
 
 
