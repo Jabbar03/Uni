@@ -43,11 +43,15 @@ int main() {
 queue Q;
 int e;
 	Q = new_queue();
-	for(int i = 0; i < 8; i++) enqueue(Q, i;);
+	for(int i = 0; i <= 8; i++) enqueue(Q, i;);
 	print_queue();
-	
-
-
+	dequeue(Q);
+	dequeue(Q);
+	Q = enqueue(Q, 9);
+	Q = enqueue(Q, 10);
+	Q = enqueue(Q, 11);
+	Q = enqueue(Q, 12);
+	Q = enqueue(Q, 13);
 }
 
 
