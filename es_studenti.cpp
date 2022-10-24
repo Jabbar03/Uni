@@ -25,8 +25,8 @@ student name(student tmp) {
   flag=false;  i=0;
   cout << "Inserire il cognome dello studente, inserire 0 al termine: " << "\n";
   while(!flag) {
-    cin >> tmp.name[i];
-    if(tmp.name[i]=='0') flag=true;
+    cin >> tmp.surname[i];
+    if(tmp.surname[i]=='0') flag=true;
     i++;
   }
   return(tmp);
