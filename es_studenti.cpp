@@ -32,7 +32,7 @@ student name(student tmp) {
   return(tmp);
 }
 
-//inserimento studente: voti ed età
+//inzializzazione studente
 student new_stud() {
   student tmp;
   int age;
